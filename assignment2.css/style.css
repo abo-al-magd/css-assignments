@@ -1,0 +1,14 @@
+/*/
+<!-- external style (in large projects) -->
+<link rel="stylesheet" href="css/file.css" />
+
+<!-- enternal style (for education & small projects -->
+<style>
+p {
+  color: red;
+}
+</style>
+
+<!-- inline style (strongest but not best practice) -->
+<p style="color: blue;">This Is Our Paragraph</p>
+/*/

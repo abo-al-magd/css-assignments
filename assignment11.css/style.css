@@ -1,0 +1,23 @@
+.assign-2-shape-1 {
+    background-color: rgb(191, 191, 191);
+    display: inline-block;
+    outline: 2.5px solid black;
+    border: 2.5px solid red;
+    margin: 5px;
+}
+.assign-2-shape-2 {
+    background-color: rgb(191, 191, 191);
+    display: inline-block;
+    outline: 2.5px solid black;
+    border: 2.5px solid;
+    border-color: blue green;
+    margin: 5px;
+}
+.assign-2-shape-3 {
+    background-color: rgb(191, 191, 191);
+    display: inline-block;
+    outline: 2.5px solid black;
+    border: 2.5px dashed;
+    border-color: red green blue yellow;
+    margin: 5px;
+}

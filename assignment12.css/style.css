@@ -1,0 +1,24 @@
+.element.element-1 {
+    background-color: #DDD;
+    width: 400px;
+    padding: 5px;
+    border-left: 5px solid red;
+    outline: 5px solid #DDD;
+}
+
+.element.element-2 {
+    background-color: #DDD;
+    width: 400px;
+    padding: 5px;
+    border-left: 5px solid blue;
+    outline: 5px solid #DDD;
+    visibility: hidden;
+}
+
+.element.element-3 {
+    background-color: #DDD;
+    width: 400px;
+    padding: 5px;
+    border-left: 5px solid green;
+    outline: 5px solid #DDD;
+}
