@@ -1,0 +1,37 @@
+.parent
+{
+    width: 1000px;
+    background-color: #eee;
+    margin: 20px auto;
+}
+.parent div
+{
+    background-color: #ddd;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px 0;
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.clear
+{
+    clear: both;
+}
+.full
+{
+    width: calc(100% - 30px);
+}
+.first
+{
+    width: calc((100% - 60px) / 3 );
+}
+.second
+{
+    width: calc((100% - 45px) / 2);
+}
+.third
+{
+    width: calc((100% - 75px) / 4);
+    margin-bottom: 15px;
+}

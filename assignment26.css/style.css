@@ -1,0 +1,45 @@
+ul
+{
+    width: 400px;
+    margin: auto;
+    list-style-type: none;
+}
+.html
+{
+    padding: 10px;
+    background-color: #EEE;
+    margin: 10px;
+    margin: white;
+}
+.html li
+{
+    background-color: white;
+    margin: 5px;
+}
+.css
+{
+    padding: 10px;
+    background-color: #EEE;
+    margin: 10px;
+    margin: white;
+}
+.css li
+{
+    background-color: white;
+    margin: 5px;
+}
+.js
+{
+    padding: 10px;
+    background-color: #EEE;
+    margin: 10px;
+    margin: white;
+}
+.js li
+{
+    list-style-type:circle;
+    list-style-position:inside;
+    background-color: white;
+    margin: 5px;
+    width: 310px;
+}
