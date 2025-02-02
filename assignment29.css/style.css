@@ -1,0 +1,20 @@
+div
+{
+    position: relative;
+    background-color: #DDD;
+    margin: auto;
+    width: 300px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div::first-letter
+{
+    content: "";
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    margin-left: -35px;
+    margin-right: 10px;
+}
