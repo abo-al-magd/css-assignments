@@ -1,0 +1,20 @@
+input
+{
+    display: flex;
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+    font-family: arial;
+    background-color: #eee;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 5px solid;
+    border-image: linear-gradient(
+        to right,
+        #f44336 50%,
+        #4caf50 50%,
+        #4caf50 100%
+        )1;
+        caret-color: red;
+}
