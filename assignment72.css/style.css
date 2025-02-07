@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+div {
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+
+@media print {
+    div {
+        font-size: 40px;
+    }
+}

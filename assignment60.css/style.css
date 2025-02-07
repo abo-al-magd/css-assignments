@@ -1,0 +1,49 @@
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    margin-top: 50%;
+    border-radius: 50%;
+    border: 5px solid #e91e63;
+    border-left-color: transparent;
+    animation: loading 1s infinite linear;
+}
+
+div::before {
+    content: "";
+    position: absolute;
+    background-color: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 5px solid #2196f3;
+    border-right-color: transparent;
+    z-index: -1;
+}
+
+div::after {
+    content: "";
+    position: absolute;
+    background-color: transparent;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 5px solid #ff9800;
+    border-bottom-color: transparent;
+    z-index: -2;
+}
+
+div:hover {
+    animation-play-state: paused;
+}
+
+@keyframes loading {
+    to {
+        transform: rotate(360deg);
+    }
+}
