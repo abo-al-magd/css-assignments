@@ -1,0 +1,45 @@
+div
+{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    margin: 50px auto;
+    align-content: center;
+    background-color: #eee;
+    color: #03a9f4;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+div::before
+{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    background-color: #03a9f4;
+    width: 300px;
+    height: 200px;
+    transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    z-index: -1;
+}
+div::after
+{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    background-color: #e91e63;
+    width: 300px;
+    height: 200px;
+    transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    z-index: -2;
+}
